@@ -1,9 +1,12 @@
 {
   "$schema": ".app/app.schema.json",
-  "title": "Eleventy Notes",
-  "description": "A simple, lightweight, and flexible note-taking template for Eleventy.",
+  "title": "My Digital Garden",
+  "description": "An evolving set of notes by Synesthesia.",
+  "theme": {
+    "color": "ruby"
+  },
   "editThisNote": {
-    "url": "https://github.com/rothsandro/eleventy-notes/edit/{{branch}}/{{file}}"
+    "url": "https://github.com/synesthesia/garden/edit/{{branch}}/{{file}}"
   },
   "customProperties": {
     "properties": [
@@ -11,7 +14,7 @@
         "path": "props",
         "options": {
           "date": {
-            "locale": "en-US"
+            "locale": "en-GB"
           }
         }
       }
@@ -20,9 +23,9 @@
   "sidebar": {
     "links": [
       {
-        "url": "https://github.com/rothsandro/eleventy-notes",
-        "label": "GitHub / Support",
-        "icon": "github"
+        "url": "https://www.synesthesia.co.uk/",
+        "label": "My Main Site",
+        "icon": "user"
       }
     ],
     "notes": [

@@ -15,6 +15,9 @@
       <h1 class="page__title">{{ headline or title or page.fileSlug }}</h1>
       <div class="article">
         {{ content | safe }}
+        <div class="article__footer">
+        {% include 'modules/notes/notes-footer.partial.njk' %}
+        </div>
       </div>
     </article>
   </main>

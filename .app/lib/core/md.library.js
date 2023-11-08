@@ -4,6 +4,8 @@ const markdownItTaskCheckbox = require("markdown-it-task-checkbox");
 const markdownItFootnote = require("markdown-it-footnote");
 const markdownItWikilinks = require("./../modules/wikilinks").markdownPlugin;
 const markdownItCopyCode = require("./../modules/notes/copy-code.md-plugin");
+const mathjax3 = require('markdown-it-mathjax3');  
+const emoji = require('markdown-it-emoji');
 
 /**
  * Creates a markdown-it instance.
@@ -30,7 +32,9 @@ module.exports = (eleventyConfig) => {
         class: "anchor-link",
         symbol: `<svg width="0.8em" height="0.8em"><use xlink:href="#icon-anchor-link"></use></svg>`,
       }),
-    });
+    })
+    .use(mathjax3)
+    .use(emoji);
 
   return lib;
 };

@@ -192,4 +192,13 @@
   .anchor-link:focus {
     color: var(--color-neutral-text);
   }
+
+  .article__footer{
+    margin-block-start: var(--flow-space, 1.5em);
+
+    h2 {
+      margin-bottom: 1.5 em;
+    }
+  }
+
 }

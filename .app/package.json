@@ -25,6 +25,7 @@
     "eleventy-plugin-page-assets": "^0.3.0",
     "markdown-it-anchor": "^8.6.7",
     "markdown-it-footnote": "^3.0.3",
+    "markdown-it-mathjax3": "^4.3.2",
     "markdown-it-task-checkbox": "^1.0.6",
     "nanohtml": "^1.10.0",
     "node-html-parser": "^6.1.11",
@@ -38,6 +39,7 @@
     "alpinejs": "^3.13.2",
     "feather-icons": "^4.29.1",
     "flexsearch": "^0.7.31",
+    "markdown-it-emoji": "^2.0.2",
     "prism-themes": "^1.9.0"
   }
 }

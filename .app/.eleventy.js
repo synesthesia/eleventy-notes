@@ -19,5 +19,7 @@ module.exports = (eleventyConfig) => {
 
   core.setup(eleventyConfig);
 
+  eleventyConfig.addPassthroughCopy({ "./assets": "/" });
+
   return core.configObj;
 };
